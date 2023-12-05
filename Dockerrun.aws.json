@@ -1,0 +1,12 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+      "Name": "kilroy007/razorpay-be-clone:latest",
+      "Update": "true"
+    },
+    "Ports": [
+      {
+        "ContainerPort": "8000"
+      }
+    ]
+  }

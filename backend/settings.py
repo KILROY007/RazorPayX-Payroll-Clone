@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-8j6ccg%)^(a6i6r551&+%r-qcz4--e*+t7-um9sg0tz5h0vfl+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0']
 
 
 # Application definition
@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'phonenumber_field',
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',
+    'django_phonenumbers',
     #Local Apps
     'api',
     'userAuth',
